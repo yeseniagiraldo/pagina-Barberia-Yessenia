@@ -1,9 +1,7 @@
-<h1>Comenzando con el lenguaje Python</h1>
-
-#Los comentarios se hace de esta forma
-
-#asi se imprime con Python
->>> print("Hola mundo!");
->>> 
+<h1>Sistema de registro</h1>
 -estado: en proceso.
+
+para ejecutar el sistema, debes poner:
+
+```npm install react```
 
