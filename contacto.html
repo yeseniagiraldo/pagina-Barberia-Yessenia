@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <!-- este codigo HTML es un formulario-->
+    <form action="contacto-formulario">
+        <div class="grupo-elementos">
+           <label for="nombre">Nombre</label>
+           <input type="text" id="nombre" nombre="visitro-nombre" placeholder="nombre de ejemplo" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="grupo-elementos">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="visitro-email" placeholder="ejemplo@gmail.com" required>
+        </div>
+        <div class="grupo-elementos">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="visitro-email" placeholder="ejemplo@gmail.com" required>
+        </div>
+        <div class="grupo-elementos">
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" name="visitro-telenfono" placeholder="(XX) XXX XXXXXXX" required>
+        </div>
+        <div class="grupo-elementos">
+            <label for="departamento-selecion">Area a contactar</label>
+            <section id="departamento-selecion" name="departamento" required>
+               <option value="">Selecione un area</option>
+               <option value="facturacion">Facturacion</option>
+               <option value="marketing">Marketing</option>
+               <option value="servicio">Servivio al cliente</option>
+            </section>
+        </div>
+        <button type="submit">Enviar mensaje</button>
+    </form>
+</body>
+</html>
